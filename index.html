@@ -1,52 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html	lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bond Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+	<title>Final Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header>
-        <header class="header"> 
-            <h1>BreeAnn Bond<h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="About Me">About Me</a>
-                </li>
-                <li>
-                    <a href="#Work">Work</a>
-                </li>
-                <li>
-                    <a href="Contact Info">Contact Info</a>
-                </li>
-            </ul>
-        </nav>       
-    </header>
-    <p class="hero"></p>
-    <main class="content">
-        <section class="About Me">
-            <img src="/Users/breeannbond/Downloads/portfolio 2.avif" alt="laptop" class="float-left" />
-            <h2>About Me</h2>
-            <p>I recieved my Bachelors in Tourism and Communications from ASU and a Master's in Business Administration. I have many years of expereience in the financial industry and am a ceeretified full stack web deveeloper.
-            </p>
-        </section>
-        <section id="Work" class="Work">
-            <img src="/Users/breeannbond/Downloads/portfolio 3.avif" alt="keyboard" class="float-right" />
-            <h2>Project number One</h2>
-            <p>
-            </p>
-        </section>
-        <section id="Conatact" class="ontact">
-            <img src="/Users/breeannbond/Downloads/portfolio 4.avif" alt= "colors" class="float-left" />
-            <h2Contact Info</h2>
-            <p>
-                Breeann@gmail.com
-            </p>
-        </section>
-    </main>
-    
+	<header>
+		<h1>BreeAnn Bond</h1>
+		<!-- <figure class="header-textbox">
+			<h1>BreeAnn Bond</h1>
+		<figure> -->
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#work">Work</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="hero-image">
+		<div>
+			<h2>Changing the world one project at a time.</h2>
+		</div>
+	</section>
+	<main>
+		<section class="container">
+			<div class="left-column">
+				<h2>About</h2>
+				<h2>Work</h2>
+				<h2>Contact Me</h2>
+			</div>
+		</section>
+		<section class="container-right">
+			<div class="right-column">
+				<div id="about">
+					<p>I recieved my Bachelors in Tourism and Communications from ASU and a Master's in Business Administration. I have many years of expereience in the financial industry and am a certified full stack web deveeloper.
+					</p>
+					<img src="./images/headshot.jpeg"alt="headshot" style="width: 150px; height:250px;">
+				</div>
+		
+				<section id="work">
+					<div class="grid-container">
+						<img src="./images/pumkin.avif" alt="Work Item 1">
+						<div class="content"> 
+							<h3>Student Prework Notes</h3>
+							<p>Html/CSS/JavaScript</p>
+							<a href="https://breeannr180.github.io/prework-study-guide/">View Project</a>
+						</div>
+					</div>
+				
+
+					<div class="grid-container">
+						<img src="./images/rain drops.avif" alt="Work Item 2" style="width: 200px; height:200px;">
+						<div class="content">
+							<h3>Code Refactoring</h3>
+							<p>Html/CSS</p>
+							<a href="https://breeannr180.github.io/code-refactor/">View Project</a>
+						</div>
+					</div>
+
+					<div class="grid-container">
+						<img src="./images/fire.avif" alt="Work Item 3" style="width: 200px; height:200px;">
+						<div class="content">
+							<h3>Project 3</h3>
+							<p>Coming Soon!</p>
+						<a href="#">View Project</a>
+					</div>
+
+	
+				</section>
+					
+			<section id="contact-me">
+				<div class="contact-me">
+					 <li>
+						<a href="mailto:breeannr@hotmail.com">Email</a>
+					</li>
+					<li>
+						<a href="tel:+555-555-5555">Phone</a>
+					</li>
+					 <li>
+						<a href="https://www.twitter.com/example" target="_blank">Twitter</a>
+					</li>
+					 <li>
+						<a href="https://www.linkedin.com/in/example" target="_blank">LinkedIn</a>
+					</li>
+					 <li>
+						<a href="https://www.github.com/example" target="_blank">GitHub</a>
+					</li>
+				</div>
+			</section>
+				
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<h4>With Love Breeann 2023!</h4>
+	</footer>
 </body>
 </html>
+
+
+
+
